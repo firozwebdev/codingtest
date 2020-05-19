@@ -10,6 +10,8 @@ class BufferPosting extends Model
     {
         return $this->hasOne(SocialPostGroups::Class, 'id', 'group_id');
     }
+    
+   
    public function accountInfo()
     {
         return $this->hasOne(SocialAccounts::Class, 'id', 'account_id');

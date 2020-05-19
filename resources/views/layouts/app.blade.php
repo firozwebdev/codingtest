@@ -678,6 +678,10 @@ if($user_meta['temp_subs'] === true){
             });
         }
     });
+    $('.datepicker').datepicker({
+    format: 'mm/dd/yyyy',
+    startDate: '-3d'
+});
 </script>
 </body>
 </html>
